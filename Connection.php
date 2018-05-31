@@ -6,3 +6,8 @@ echo $q;
  mysqli_query($con,$q);
 mysqli_close($con);
 ?>
+<html>
+ <head>
+  <h1>Database Connection using Mysql and PHP</h1>
+  </head>
+ </html>
