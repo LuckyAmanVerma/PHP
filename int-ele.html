@@ -1,0 +1,95 @@
+<link href="./polymer.html" rel="import" />
+
+
+<dom-module id="int-ele">
+
+
+	<style type="text/css">
+		
+			h1{
+		color: red;
+	}
+	
+	</style>
+
+    <template>
+		Enter First Name:<input type="text" value="{{fistName::input}}"></br>
+		Enter Last Name: <input type="text" value="{{lastName::input}}"></br>
+		Enter Your Age:  <input type="text" value="{{age::input}}">
+	<h1>Testing</h1>
+		<h1>{{fullName(fistName,lastName,age)}}</h1>
+	</template>
+	<script>
+	
+	Polymer({
+            is: "int-ele",
+
+            properties:{
+
+            	fistName:{
+
+            		type:String,
+            		value:"Mahendra"
+            	},
+
+            	lastName:{
+
+            		type:String,
+            		value:"Beekawat"
+            	},
+				age:{
+				
+				type:Number,
+				value:21
+				},
+				
+				
+            },
+
+            fullName:function(f,l,a){
+            	return f+" "+l+" "+a;
+
+            }
+
+			
+			
+            })
+			
+	</script>
+</dom-module>
+
+<dom-module id="eles-ele">
+	<style>
+	#second{
+	color:blue;
+	}
+	</style>
+
+	<template>
+	<h1 id="second">Second Element</h1>
+	<span>{{PhoneNumber(phone)}}</span>
+	</template>
+
+<script>
+	Polymer({
+			is:"eles-ele",
+				properties:{
+					phone:{
+					type:Number,
+					value:7247
+					}
+				
+				},
+				PhoneNumber:function(Ph)
+				{
+				return "Your Phone Number is"+Ph;
+				}
+
+
+})
+</script>
+	
+</dom-module>
+
+
+
