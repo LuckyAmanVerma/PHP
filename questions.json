@@ -1,0 +1,107 @@
+[
+    [
+        "Introduction",
+        {
+            "question": "Permission To Record",
+            "disposition": "2",
+            "action": "red",
+            "comment": ""
+        },
+        {
+            "question": "Confirmed Account Authorize User/Decision Maker/Relationship to Decision Maker",
+            "disposition": 2,
+            "action": "red",
+            "comment": ""
+        },
+        {
+            "question": "Customer said they were not the decision maker yet the agent proceeded with sale pitch",
+            "disposition": 2,
+            "action": "yellow",
+            "comment": "Curabitur non lacus enim. Vesitbulum sit amet enim portitor ullamcorpher nibh"
+        }
+    ],
+    [
+        "Presentation",
+        {
+            "question": "Permission To Record",
+            "disposition": "2",
+            "action": "red",
+            "comment": ""
+        },
+        {
+            "question": "Confirmed Account Authorize User/Decision Maker/Relationship to Decision Maker",
+            "disposition": 2,
+            "action": "red",
+            "comment": ""
+        },
+        {
+            "question": "Customer said they were not the decision maker yet the agent proceeded with sale pitch",
+            "disposition": 2,
+            "action": "yellow",
+            "comment": "Curabitur non lacus enim. Vesitbulum sit amet enim portitor ullamcorpher nibh"
+        }
+    ],
+    [
+        "Payment Type",
+        {
+            "question": "Permission To Record",
+            "disposition": "2",
+            "action": "red",
+            "comment": ""
+        },
+        {
+            "question": "Confirmed Account Authorize User/Decision Maker/Relationship to Decision Maker",
+            "disposition": 2,
+            "action": "red",
+            "comment": ""
+        },
+        {
+            "question": "Customer said they were not the decision maker yet the agent proceeded with sale pitch",
+            "disposition": 2,
+            "action": "yellow",
+            "comment": "Curabitur non lacus enim. Vesitbulum sit amet enim portitor ullamcorpher nibh"
+        }
+    ],
+    [
+        "Sales Disclosure",
+        {
+            "question": "Permission To Record",
+            "disposition": "2",
+            "action": "red",
+            "comment": ""
+        },
+        {
+            "question": "Confirmed Account Authorize User/Decision Maker/Relationship to Decision Maker",
+            "disposition": 2,
+            "action": "red",
+            "comment": ""
+        },
+        {
+            "question": "Customer said they were not the decision maker yet the agent proceeded with sale pitch",
+            "disposition": 2,
+            "action": "yellow",
+            "comment": "Curabitur non lacus enim. Vesitbulum sit amet enim portitor ullamcorpher nibh"
+        }
+    ],
+    [
+        "Other",
+        {
+            "question": "Permission To Record",
+            "disposition": "2",
+            "action": "red",
+            "comment": ""
+        },
+        {
+            "question": "Confirmed Account Authorize User/Decision Maker/Relationship to Decision Maker",
+            "disposition": 2,
+            "action": "red",
+            "comment": ""
+        },
+        {
+            "question": "Customer said they were not the decision maker yet the agent proceeded with sale pitch",
+            "disposition": 2,
+            "action": "yellow",
+            "comment": "Curabitur non lacus enim. Vesitbulum sit amet enim portitor ullamcorpher nibh"
+        }
+    ]
+]
